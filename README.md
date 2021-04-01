@@ -1,5 +1,5 @@
 # Deep Learning Theory
-
+整理了一些深度学习的理论相关内容，持续更新。
 ## Overview
 1. [Recent advances in deep learning theory](https://arxiv.org/pdf/2012.10931.pdf)
 总结了目前深度学习理论研究的六个方向的一些结果，概述型，没做深入探讨(2021)。
@@ -62,5 +62,5 @@
 9. Optima transmission
     + 9.1 [深度学习的几何学解释](http://www.engineering.org.cn/ch/10.1016/j.eng.2019.09.010)(2020)
 
-## others
+## Others
 4. [Theoretical issues in deep networks](https://www.pnas.org/content/117/48/30039) 表明指数型损失函数中存在隐式的正则化，其优化的结果和一般损失函数优化结果一致，优化收敛结果和梯度流的迹有关，目前还不能证明哪个结果最优(2020)。
