@@ -120,4 +120,6 @@
 [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmodeling).空了看情况解析某些工作.
 
 ## 数学形式主义与计算机
+[The Future of Mathematics？ ](https://www.bilibili.com/video/av71583469)(2019) Kevin Buzzard就lean的一场讲座，评论区有对应讲义资料。
+
 [数学形式主义的兴起](https://mp.weixin.qq.com/s/-XosE3LzA8wfFv-38EIfKQ)(2022.7)Kevin Buzzard教授在2022本届国际数学家大会一小时报告演讲中提供了一些信息和思考见解。讲述了数学形式主义与人工智能、机器学习和开源社区的共同努力，用计算机做奥数题、检查数学证明过程是否有误、甚至自动发现和形式化证明数学定理，在理论和实践中又会碰撞出什么火花，又会如何囿于哥德尔不完全定理。其开源系统[mathlib](https://gitpod.io/#https://github.com/leanprover-community/mathlib)使用lean语言?实现了超过80000个定理的证明，近百万行代码，涉及代数、分析、范畴论、组合数学、几何、数论、拓扑学等形式化。做了很多较高级别的证明工作，2020.12的液体张量实验，2021年Baanen、Dahmen、Narayanan 和 Nuccio 在Lean中形式化了戴德金Dedekind域和相应类群。他们还形式化了整体域的类群是有限的这一证明。2022 年：de Frutos Fernández 在Lean中形式化了整体域上的adeles和ideles。她证明了idele类群与ideal理想类群之间的关系。有很多，参考前文。其项目文档社区[leanprover-community](https://leanprover-community.github.io/mathlib-overview.html)。
