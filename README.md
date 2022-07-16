@@ -15,6 +15,7 @@
     + 1.5 theoretical foundations of several special structures in network architectures; 
 
     + 1.6 the increasinglyintensive concerns in ethics and security and their relationships with generalizability
+2. 🔥 [On the Principles of Parsimony and Self-Consistency for the Emergence of Intelligence](https://arxiv.org/abs/2207.04630)(2022.7.马毅、沈向洋、曹颖)"任何一个智能系统，作为一个看似简单的自主闭环：信息、控制、对策、优化、神经网络，紧密结合，缺一不可。总而言之，人工智能的研究从现在开始，应该能够也必须与科学、数学、和计算紧密结合。从最根本、最基础的第一性原理（简约、自洽）出发，把基于经验的归纳方法与基于基础原理的演绎方法严格地、系统地结合起来发展。理论与实践紧密结合、相辅相成、共同推进我们对智能的理解。"
 
 ## Course
 2. [Theory of Deep Learning](https://www.ideal.northwestern.edu/special-quarters/fall-2020/)TTIC,西北大学等组织的一系列课程和讲座，基础课程涉及DL的基础(符号化，简化后的数学问题和结论)，信息论和学习，统计和计算，信息论，统计学习和强化学习(2020)。
@@ -68,6 +69,10 @@
     + 8.2 [instahide](http://www.offconvex.org/2020/11/11/instahide/) 如何在不泄露数据的情况下优化模型？
     + 8.3 [implicit regularization in DL explained by norms?](http://www.offconvex.org/2020/11/27/reg_dl_not_norm/)
 
+9. [Adam](https://arxiv.org/abs/1412.6980)
+    + 9.1 [deep-learning-dynamics-paper-list](https://github.com/zeke-xie/deep-learning-dynamics-paper-list)关于DL优化动力学方面研究的资料收集。
+    + 9.2 [Adai](https://github.com/zeke-xie/adaptive-inertia-adai) Adam的优化版本Adai，Adam逃离鞍点很快，但是不能像SGD一样擅长找到flat minima。作者设计一类新的自适应优化器Adai结合SGD和Adam的优点。Adai逃离鞍点速度接近Adam,寻找flat minima能接近SGD。其知乎介绍可看[Adai-zhihu]((https://www.zhihu.com/question/323747423/answer/2576604040))
+
 ## Geometry
 9. Optima transmission
     + 9.1 [深度学习的几何学解释](http://www.engineering.org.cn/ch/10.1016/j.eng.2019.09.010)(2020)
@@ -91,6 +96,8 @@
 2. [Predicting Generalization using GANs](http://www.offconvex.org/2022/06/06/PGDL/)(2022.6),用GAN来评估泛化性.
 3. [Implicit Regularization in Tensor Factorization: Can Tensor Rank Shed Light on Generalization in Deep Learning?](http://www.offconvex.org/2021/07/08/imp-reg-tf/)(2021.7)Tensor Rank 能否揭示深度学习中的泛化？
 4. [如何通过Meta Learning实现域泛化Domain Generalization](https://mp.weixin.qq.com/s/o1liWf9B4_LntBeyV2bVOg)(2022.4),[Domain Generalization CVPR2022](https://mp.weixin.qq.com/s/HkjHEqs8d85VPdgpaHEzPQ)博文参考.
+5. [Generalization-Causality](https://github.com/yfzhang114/Generalization-Causality) 一博士关于domain generalization等工作的实时汇总。
+6. []()
 
 
 ## Others
