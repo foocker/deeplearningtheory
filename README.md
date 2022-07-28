@@ -114,9 +114,27 @@
 （3）为一些深度学习技术（如对抗攻击、知识蒸馏）提供新见解。
 21.  [神经网络的博弈交互解释性](https://zhuanlan.zhihu.com/p/264871522/)(知乎)。上交大张拳石团队研究论文整理而得，作为博弈交互解释性的体系框架（不怎么稳固）。
 22.  [Advancing mathematics by guiding human intuition with AI](https://www.nature.com/articles/s41586-021-04086-x)(2021,nature)机器学习和数学家工作的一个有机结合，主要利用机器学习分析众多特征和目标变量的主要相关因子，加强数学家的直觉，该论文得到了两个漂亮的定理，一个拓扑，一个表示论。可参考[回答](https://www.zhihu.com/question/503185412/answer/2256015652)。
-23.  [contrastive learning](https://zhuanlan.zhihu.com/p/524733769)证明包括InfoNCE在内的一大类对比学习目标函数，等价于一个有两类变量（或者说两类玩家）参与的交替优化（或者说游戏）过程.
-24.  [可解释性：Batch Normalization未必客观地反应损失函数信息](https://zhuanlan.zhihu.com/p/523627298)2022,张拳石等.
-
+23. 🔥[A New Perspective of Entropy](https://math3ma.institute/wp-content/uploads/2022/02/bradley_spring22.pdf)(2022) 通过莱布尼兹微分法则(Leibniz rule)将信息熵,抽象代数,拓
+扑学联系起来。该文章是一个零基础可阅读的综述,具体参考[Entropy as a Topological Operad Derivation ](https://www.mdpi.com/1099-4300/23/9/1195)(2021.7,Tai-Danae Bradley.)
+24. [minerva](https://storage.googleapis.com/minerva-paper/minerva_paper.pdf)(2022)google提出的解题模型,在公共高等数学等考试中比人类平均分高.[测试地址](https://minerva-demo.
+github.io/#category=Algebra&index=1).
+25. 🔥[An automatic theorem proving project](https://gowers.wordpress.com/2022/04/28/announcing-an-automatic-theorem-proving-project/#more-6531)菲尔兹获得者数学家高尔斯关于
+自动证明数学定理的项目进展[How can it be feasible to find proofs?](https://drive.google.com/file/d/1-FFa6nMVg18m1zPtoAQrFalwpx2YaGK4/view)(2022, W.T. Gowers).
+26. [GRAND: Graph Neural Diffusion ](https://papertalk.org/papertalks/32188)(2021)该网站包含了一些相似论文资料,[项目地址graph-neural-pde](https://github.com/twitter-research
+/graph-neural-pde),其优化版本[GRAND++](https://openreview.net/forum?id=EMxu-dzvJk).(2022).有博文介绍[图神经网络的困境，用微分几何和代数拓扑解决](https://mp.weixin.qq.com/s/CFNvgn6vaYcI36QJNa3_dw)仅供参
+考.
+27. [Weinan È-A Mathematical Perspective on Machine Learning](https://opade.digital/)(2022.icm),room1最后一排,鄂维南在icm的演讲视频.
+28.  [contrastive learning](https://zhuanlan.zhihu.com/p/524733769)证明包括InfoNCE在内的一大类对比学习目标函数，等价于一个有两类变量（或者说两类玩家）参与的交替优化（或者说游戏）过程.
+29.  [可解释性：Batch Normalization未必客观地反应损失函数信息](https://zhuanlan.zhihu.com/p/523627298)2022,张拳石等.
+ 
+ ## DeepModeling
+ [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmode
+ling).空了看情况解析某些工作.
+ 
+ ## 数学形式主义与计算机
+ [The Future of Mathematics？ ](https://www.bilibili.com/video/av71583469)(2019) Kevin Buzzard就lean的一场讲座，评论区有对应讲义资料。
+ [数学形式主义的兴起](https://mp.weixin.qq.com/s/-XosE3LzA8wfFv-38EIfKQ)(2022.7)Kevin Buzzard教授在2022本届国际数学家大会一小时报告演讲中提供了一些信息和思考见解。讲述了数学
+形式主义与人工智能、机器学习和开源社区的共同努力，用计算机做奥数题、检查数学证明过程是否有误、甚至自动发现和形式化证明数学定理，在理论和实践中又会碰撞出什么火花，又会如何囿于...
 ## Discussion
 1. [怎样看待Ali Rahimi 获得 NIPS 2017 Test-of-time Award后的演讲？](https://www.zhihu.com/question/263711574)17年就有人(张心欣,王刚等)指出了DL的缺陷,和这个领域中人的特点,过去5年了,还是那样.不过如23 能看出,meta的做应用的田渊栋还在坚守理论.
 2. [深度学习领域有哪些瓶颈？](https://www.zhihu.com/question/40577663/answer/2593884415)张拳石新的吐槽,以及最新成果汇集.
