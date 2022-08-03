@@ -45,9 +45,16 @@
         +  Generative models beyond the pretty pictures: a tool for traversing the data manifold, projections, completion, substitutions etc.
         + Taming adversarial objectives: Wasserstein GANs, regularization approaches and + controlling the dynamics
         + The expressive power of deep networks (deep information propagation, mean-field analysis of random networks etc.)
-        
+5. [深度学习几何课程](https://geometricdeeplearning.com/lectures/)(2022, Michael Bronstein)内容比较高级.
+    + 5.1 2022 年的 GDL100 共包含 12 节常规课程、3 节辅导课程和 5 次专题研讨。12 节常规课程主要介绍了几何深度学习的基本概念知识，包括高维学习、几何先验知识、图与集合、网格（grid）、群、测地线（geodesic）、流形（manifold）、规范（gauge）等。3 节辅导课主要面向表达型图神经网络、群等变神经网络和几何图神经网络。
 
-
+    + 5 次专题研讨的话题分别是：
+        1. 从多粒子动力学和梯度流的角度分析神经网络；
+        2. 表达能力更强的 GNN 子图；
+        3. 机器学习中的等变性；
+        4. 神经 sheaf 扩散：从拓扑的角度分析 GNN 中的异质性和过度平滑；
+        5. 使用 AlphaFold 进行高度准确的蛋白质结构预测。
+ 
 ## Architecture
 5. [Partial Differential Equations is All You Need for Generating Neural Architectures -- A Theory for Physical Artificial Intelligence Systems](https://arxiv.org/abs/2103.08313) 将统计物理的反应扩散方程，量子力学中的薛定谔方程，傍轴光学中的亥姆霍兹方程统一整合到神经网络偏微分方程中(NPDE)，利用有限元方法找到数值解，从离散过程中，构造了多层感知，卷积网络，和循环网络，并提供了优化方法L-BFGS等，主要是建立了经典物理模型和经典神经网络的联系(2021)。
 
@@ -132,9 +139,10 @@ github.io/#category=Algebra&index=1).
 ling).空了看情况解析某些工作.
  
  ## 数学形式主义与计算机
- [The Future of Mathematics？ ](https://www.bilibili.com/video/av71583469)(2019) Kevin Buzzard就lean的一场讲座，评论区有对应讲义资料。
- [数学形式主义的兴起](https://mp.weixin.qq.com/s/-XosE3LzA8wfFv-38EIfKQ)(2022.7)Kevin Buzzard教授在2022本届国际数学家大会一小时报告演讲中提供了一些信息和思考见解。讲述了数学
+ 1. [The Future of Mathematics？ ](https://www.bilibili.com/video/av71583469)(2019) Kevin Buzzard就lean的一场讲座，评论区有对应讲义资料。
+ 2. [数学形式主义的兴起](https://mp.weixin.qq.com/s/-XosE3LzA8wfFv-38EIfKQ)(2022.7)Kevin Buzzard教授在2022本届国际数学家大会一小时报告演讲中提供了一些信息和思考见解。讲述了数学
 形式主义与人工智能、机器学习和开源社区的共同努力，用计算机做奥数题、检查数学证明过程是否有误、甚至自动发现和形式化证明数学定理，在理论和实践中又会碰撞出什么火花，又会如何囿于...
+3. [专访ICM 2022国际数学家大会一小时报告者Kevin Buzzard：计算机可以成为数学家吗？——译自量子杂志](https://mp.weixin.qq.com/s/VWuRyxkl0xgZWcqRn0WJAw)比较好的采访,值得看看.数学家让计算机科学家了解到数学很难,这个部分,在被逐渐理解,且计算机系统检查,可能会解决这个难点.还有那些炫酷的项目,球面外翻,费马大定理,非常值得关注.
 ## Discussion
 1. [怎样看待Ali Rahimi 获得 NIPS 2017 Test-of-time Award后的演讲？](https://www.zhihu.com/question/263711574)17年就有人(张心欣,王刚等)指出了DL的缺陷,和这个领域中人的特点,过去5年了,还是那样.不过如23 能看出,meta的做应用的田渊栋还在坚守理论.
 2. [深度学习领域有哪些瓶颈？](https://www.zhihu.com/question/40577663/answer/2593884415)张拳石新的吐槽,以及最新成果汇集.
