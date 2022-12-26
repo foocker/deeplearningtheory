@@ -144,29 +144,10 @@ github.io/#category=Algebra&index=1).
 考.
 27. [Weinan È-A Mathematical Perspective on Machine Learning](https://opade.digital/)(2022.icm),room1最后一排,鄂维南在icm的演讲视频.
 28.  [contrastive learning](https://zhuanlan.zhihu.com/p/524733769)证明包括InfoNCE在内的一大类对比学习目标函数，等价于一个有两类变量（或者说两类玩家）参与的交替优化（或者说游戏）过程.
-<<<<<<< HEAD
 29.  [可解释性：Batch Normalization未必客观地反应损失函数信息](https://zhuanlan.zhihu.com/p/523627298)2022,张拳石等.
-30. [Homotopy Theoretic and Categorical Models of Neural Information Networks](https://arxiv.org/abs/2006.15136)该工作第一作者俄罗斯数学家Yuri Manin，2020工作，2022年8月arxiv有更新。[ncatlab有讨论](https://nforum.ncatlab.org/discussion/13133/understanding-preprint-topos-and-stacks-of-deep-neural-networks/)。
+30. [Homotopy Theoretic and Categorical Models of Neural Information Networks](https://arxiv.org/abs/2006.15136)该工作第一作者俄罗斯数学家Yuri Manin，2020工作，2022年8月arxiv有更新。[ncatlab有讨论](https://nforum.ncatlab.org/discussion/13133/understanding-preprint-topos-and-stacks-of-deep-neural-networks/)。[博文讲解](http://www.neverendingbooks.org/deep-learning-and-toposes)。
 31. [Deep learning via dynamical systems: An approximation perspective](https://ems.press/journals/jems/articles/5404458)动力系统逼近。[论文见](https://cpb-us-w2.wpmucdn.com/blog.nus.edu.sg/dist/d/11132/files/2021/01/main-jems.pdf)。
 32. [群论角度](https://www.youtube.com/playlist?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd)群论角度去理解的一系列视频，群论视角，2014年出现过，视频系统讲解，2022年。
-=======
-29.  [可解释性：Batch Normalization未必客观地反应损失函数信息](https://zhuanlan.zhihu.com/p/523627298)2022,张拳石等.BN操作使得神经网络训练无法客观反应损失函数的信息。具体地，本文理论证明了当我们对深度神经网络的损失函数进行泰勒展开时， BN操作阻塞了损失函数的一阶项和二阶项的反向传播。在实验中，作者发现BN操作有时候阻碍了神经网络对特定特征的学习。论文的结论是很清晰的,具体看论文.
-30.  [Why Adversarial Training of ReLU Networks is Difficult?](https://arxiv.org/abs/2205.15130)2022.5,Xu Cheng等
-     1. 我们推导了对抗扰动的解析解，该解析解揭示了对抗扰动的动力学本质。
-     2. 基于对抗扰动的解析解，我们理论解释了对抗训练优化困难的原因。
-     3. 基于上述理论，我们统一分析十篇前人对对抗训练的研究的内在机理。
-     4. 对抗扰动会增强输入x的Hessian矩阵最大特征值对应特征向量方向上的梯度分量，并且当对抗力度较大时，对抗扰动只会沿着少数特征值较大的方向变化。
-     5. 对抗训练可以被认为增加了Hessian矩阵对网络参数更新的影响，这使得对抗训练相较于正常训练，更容易出现网络参数在某一方向振荡的情况，增加了对抗训练的困难程度。
-     6. 等
-31. [Trap of Feature Diversity in the Learning of MLPs](https://arxiv.org/abs/2112.00980)2022.7,Dongrui Liu等.
-    1.  我们发现了一个长期被忽略的基础但反直觉的现象，即在多层感知机训练的前期（在很早期Loss不下降的那一段），特征多样性会快速下降，甚至不同类别的不同样本学习到几乎一样的特征。这时神经网络有些像一个自激系统。这种现象是十分反常的，而且它会破坏多层感知机的训练。
-    2.  当训练任务比较难的时候，很多神经网络往往“训练不动”，理论上恰恰属于卡在了这个神经网络的系统自激阶段。
-    3.  我们从学习动力学 (learning dynamics) 的角度理论上解释了这一现象，并且基于理论分析，我们解释了四种可以缓解这个现象操作的原因。
-    4.  [原作者解析](https://zhuanlan.zhihu.com/p/521453526)
-
-
-
->>>>>>> dcbd248fa1d60b14e14dbff7edc6f0ec963f48c8
  ## DeepModeling
  [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmode
 ling).空了看情况解析某些工作.
