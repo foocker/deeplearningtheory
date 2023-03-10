@@ -148,6 +148,7 @@ github.io/#category=Algebra&index=1).
 30. [Homotopy Theoretic and Categorical Models of Neural Information Networks](https://arxiv.org/abs/2006.15136)该工作第一作者俄罗斯数学家Yuri Manin，2020工作，2022年8月arxiv有更新。[ncatlab有讨论](https://nforum.ncatlab.org/discussion/13133/understanding-preprint-topos-and-stacks-of-deep-neural-networks/)。[博文讲解](http://www.neverendingbooks.org/deep-learning-and-toposes)。
 31. [Deep learning via dynamical systems: An approximation perspective](https://ems.press/journals/jems/articles/5404458)动力系统逼近。[论文见](https://cpb-us-w2.wpmucdn.com/blog.nus.edu.sg/dist/d/11132/files/2021/01/main-jems.pdf)。
 32. [群论角度](https://www.youtube.com/playlist?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd)群论角度去理解的一系列视频，群论视角，2014年出现过，视频系统讲解，2022年。
+33. [Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)作者Adam Zsolt Wagner通过神经网络和强化学习构建了一系列反例，推翻了几个组合学的猜想，2021年。
  ## DeepModeling
 1. [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmode
 ling).空了看情况解析某些工作.
@@ -159,6 +160,7 @@ ling).空了看情况解析某些工作.
 形式主义与人工智能、机器学习和开源社区的共同努力，用计算机做奥数题、检查数学证明过程是否有误、甚至自动发现和形式化证明数学定理，在理论和实践中又会碰撞出什么火花，又会如何囿于...
 3. [专访ICM 2022国际数学家大会一小时报告者Kevin Buzzard：计算机可以成为数学家吗？——译自量子杂志](https://mp.weixin.qq.com/s/VWuRyxkl0xgZWcqRn0WJAw)比较好的采访,值得看看.数学家让计算机科学家了解到数学很难,这个部分,在被逐渐理解,且计算机系统检查,可能会解决这个难点.还有那些炫酷的项目,球面外翻,费马大定理,非常值得关注.
 4. [Deep Maths-machine learning and mathematics](https://www.youtube.com/watch?v=wbJQTtjlM_w),重新发现Euler多面体公式 （对之前工作的细节的更进一步说明）,涉及组合不变量猜想，庞加莱猜想，瑟斯顿几何猜想，扭结图等（涉及的面很大，但都是一带而过）。![image](./imgs/ex1_knot.png)
+5. [Would it be possible to create a tool to automatically diagram papers?](https://terrytao.wordpress.com/2023/02/18would-it-be-possible-to-create-a-tool-to-automatically-diagram-papers/) Tao在[IPAM](https://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/)组织用机器学习来帮助证明的workshops。
 ## Discussion
 1. [怎样看待Ali Rahimi 获得 NIPS 2017 Test-of-time Award后的演讲？](https://www.zhihu.com/question/263711574)17年就有人(张心欣,王刚等)指出了DL的缺陷,和这个领域中人的特点,过去5年了,还是那样.不过如23 能看出,meta的做应用的田渊栋还在坚守理论.
 2. [深度学习领域有哪些瓶颈？](https://www.zhihu.com/question/40577663/answer/2593884415)张拳石新的吐槽,以及最新成果汇集.
