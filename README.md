@@ -166,6 +166,7 @@ ling).空了看情况解析某些工作.
 ## Discussion
 1. [怎样看待Ali Rahimi 获得 NIPS 2017 Test-of-time Award后的演讲？](https://www.zhihu.com/question/263711574)17年就有人(张心欣,王刚等)指出了DL的缺陷,和这个领域中人的特点,过去5年了,还是那样.不过如23 能看出,meta的做应用的田渊栋还在坚守理论.
 2. [深度学习领域有哪些瓶颈？](https://www.zhihu.com/question/40577663/answer/2593884415)张拳石新的吐槽,以及最新成果汇集.
+3. [ChatGPT/GPT4](https://openai.com/research/gpt-4)虽然和理论无关，但实用性很好的一个进展，目前准确率(!胡扯率)貌似能达到0.8+。
 
 ## 数学家
 懒得分类了，随便新加了一类
