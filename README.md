@@ -98,12 +98,15 @@
 20. [The Principles of Deep Learning Theory](https://arxiv.org/pdf/2106.10165.pdf)(2021)Daniel A. Roberts and Sho Yaida(mit)，Beginning from a first-principles component-level picture of networks，本书解释了如何通过求解层到层迭代方程和非线性学习动力学来确定训练网络输出的准确描述。一个主要的结果是网络的预测是由近高斯分布描述的，网络的深度与宽度的纵横比控制着与无限宽度高斯描述的偏差。本书解释了这些有效深度网络如何从训练中学习非平凡的表示，并更广泛地分析非线性模型的表示学习机制。从近内核方法的角度来看，发现这些模型的预测对底层学习算法的依赖可以用一种简单而通用的方式来表达。为了获得这些结果，作者开发了表示组流（RG 流）的概念来表征信号通过网络的传播。通过将网络调整到临界状态，他们为梯度爆炸和消失问题提供了一个实用的解决方案。作者进一步解释了 RG 流如何导致近乎普遍的行为，从而可以将由不同激活函数构建的网络做类别划分。Altogether, they show that the depth-to-width ratio governs the effective model complexity of the ensemble of trained networks。利用信息理论，作者估计了模型性能最好的最佳深宽比，并证明了残差连接能将深度推向任意深度。利用以上理论工具，就可以更加细致的研究架构的归纳偏差，超参数，优化。[原作者的视频说明](https://www.youtube.com/watch?v=wXZKoHEzASg)(2021.12.1)
 21. [Physics-based Deep Learning](https://arxiv.org/pdf/2109.05237.pdf)(2021)N. Thuerey, P. Holl,etc.[github resources](https://github.com/thunil/Physics-Based-Deep-Learning)深度学习与物理学的联系。比如基于物理的损失函数，可微流体模拟，逆问题的求解，Navier-Stokes方程的前向模拟，Controlling Burgers’ Equation和强化学习的关系等。
 22. [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478)(Michael M. Bronstein, Joan Bruna, Taco Cohen, Petar Veličković,2021),见上面课程5:深度学习几何课程.
+23. [dynamical systems and ml 2, 2020](https://www.stat.berkeley.edu/~mmahoney/talks/dynamical_systems_and_ml_2.pdf)看起来写得很好，有Connection between ResNets and Dynamical Systems。
+24. [Dynamical Systems and Machine Learning 2020, pku](https://www.math.pku.edu.cn/amel/docs/20200719122925684287.pdf)。
 
 ## Session
 21. [Foundations of Deep Learning](https://simons.berkeley.edu/programs/dl2019)(2019)，西蒙研究中心会议。
 22. [Deep Learning Theory 4](https://icml.cc/virtual/2021/session/12048)(2021, ICML)Claire Monteleoni主持...,深度学习理论会议4，包含论文和视频。
 23. [Deep Learning Theory 5 ](https://icml.cc/virtual/2021/session/12057)(2021,ICML)MaYi主持...，深度学习理论会议5，包含论文和视频。
 24. [DeLTA 2023 : 4th International Conference on Deep Learning Theory and Applications](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170637&copyownerid=45217) 会议包含RNN,CNN,DHN,GAN,AE,EV,Dimensionality Reduction等基本模型内容，具体啥内容未知，ML的基本内容，强化，度量，核，图表示，聚类，分类，回归等，还有大数据，图像的具体应用方向，语言理解方向。看起来都是比较基础内容。
+25. [和动力系统的会议 2023](https://machinelearning-dynamic.github.io/)。[里面收到的文章列表](https://machinelearning-dynamic.github.io/schedule.html )
 
 ## generalization
 1. [Robust Learning with Jacobian Regularization](https://arxiv.org/abs/1908.02729)(2019)Judy Hoffman..., 
@@ -150,6 +153,17 @@ github.io/#category=Algebra&index=1).
 31. [Deep learning via dynamical systems: An approximation perspective](https://ems.press/journals/jems/articles/5404458)动力系统逼近。[论文见](https://cpb-us-w2.wpmucdn.com/blog.nus.edu.sg/dist/d/11132/files/2021/01/main-jems.pdf)。
 32. [群论角度](https://www.youtube.com/playlist?list=PL8FnQMH2k7jzPrxqdYufoiYVHim8PyZWd)群论角度去理解的一系列视频，群论视角，2014年出现过，视频系统讲解，2022年。
 33. [Constructions in combinatorics via neural networks](https://arxiv.org/abs/2104.14516)作者Adam Zsolt Wagner通过神经网络和强化学习构建了一系列反例，推翻了几个组合学的猜想，2021年。
+34. [不动点2023](https://arxiv.org/pdf/2303.12814.pdf)这篇文章主要研究任意深度的一维神经网络中的固定点问题。首先，文章介绍了一种新的方法，通过代数拓扑理论来研究神经网络中的固定点。然后，文章证明了任意深度的一维神经网络在某些情况下一定存在固定点。特别地，当网络中的激活函数为sigmoid函数时，网络在存在足够多的神经元时必定存在固定点。此外，文章还证明了某些特殊情况下，任意深度的一维神经网络中的固定点是稠密的，即在网络参数的空间中，存在无限多的参数可以使得网络的输出为固定值。这项研究具有深入探究神经网络理论的意义，有助于深入理解神经网络在不同条件下的表现和性质。*后面内容是直接输入题目，chatgpt总结的。*
+35. [Overparameterized ReLU Neural Networks Learn the Simplest Model: Neural Isometry and Phase Transitions](https://arxiv.org/pdf/2209.15265.pdf)2023,这是一篇关于深度学习理论的论文，研究了过参数化的ReLU神经网络的训练和泛化性能，以及其学习的模型复杂度。研究表明，即使神经网络的参数数量极高，它们也能够学习出非常简单的模型，这与传统的统计智慧相矛盾。本文采用了凸优化和稀疏恢复的视角，提出了神经同构和相变的概念，来解释神经网络学习简单模型的原因。
+    本文的主要贡献包括以下几个方面：
+
+    1. 对于两层ReLU网络，研究了其训练和泛化性能，并证明只有学习简单模型的参数是有意义的。
+    2. 提出了神经同构的概念，即输入空间和输出空间之间的等距变换，这有助于解释神经网络学习简单模型的原因。
+    3. 提出了相变的概念，并证明在随机生成的数据上，神经网络的恢复性能存在相变现象。当样本数量与维度之比超过一个数值阈值时，恢复成功的概率很高；否则，失败的概率很高。
+    4. 研究了具有跳跃连接或归一化层的ReLU网络，并提出了相应的等距条件，以确保准确恢复种植的神经元。
+
+    总之，本文通过理论分析和数值实验，证明了过参数化的ReLU神经网络能够学习最简单的模型，这为深度学习的理论研究和实际应用提供了重要的启示。(问chatgpt论文题目给的回复)
+36. [FAST COMPUTATION OF PERMUTATION EQUIVARIANT LAYERS WITH THE PARTITION ALGEBRA](https://arxiv.org/pdf/2303.06208.pdf) 2023, 该论文主要介绍了一种快速计算置换等变层的方法，该方法使用了分区代数。
  ## DeepModeling
 1. [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmode
 ling).空了看情况解析某些工作.
@@ -166,6 +180,7 @@ ling).空了看情况解析某些工作.
 ## Discussion
 1. [怎样看待Ali Rahimi 获得 NIPS 2017 Test-of-time Award后的演讲？](https://www.zhihu.com/question/263711574)17年就有人(张心欣,王刚等)指出了DL的缺陷,和这个领域中人的特点,过去5年了,还是那样.不过如23 能看出,meta的做应用的田渊栋还在坚守理论.
 2. [深度学习领域有哪些瓶颈？](https://www.zhihu.com/question/40577663/answer/2593884415)张拳石新的吐槽,以及最新成果汇集.
+3. [数值pde与深度学习结合是未来发展方向吗？](https://www.zhihu.com/question/523893840)
 
 ## 数学家
 懒得分类了，随便新加了一类
