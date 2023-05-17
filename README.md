@@ -164,7 +164,13 @@ github.io/#category=Algebra&index=1).
     4. 研究了具有跳跃连接或归一化层的ReLU网络，并提出了相应的等距条件，以确保准确恢复种植的神经元。
 
     总之，本文通过理论分析和数值实验，证明了过参数化的ReLU神经网络能够学习最简单的模型，这为深度学习的理论研究和实际应用提供了重要的启示。(问chatgpt论文题目给的回复)
-36. [FAST COMPUTATION OF PERMUTATION EQUIVARIANT LAYERS WITH THE PARTITION ALGEBRA](https://arxiv.org/pdf/2303.06208.pdf) 2023, 该论文主要介绍了一种快速计算置换等变层的方法，该方法使用了分区代数。
+36. [FAST COMPUTATION OF PERMUTATION EQUIVARIANT LAYERS WITH THE PARTITION ALGEBRA](https://arxiv.org/pdf/2303.06208.pdf) 2023.1, 该论文主要介绍了一种快速计算置换等变层的方法，该方法使用了分区代数。
+37. [Omnigrok: Grokking Beyond Algorithmic Data](https://arxiv.org/abs/2210.01117)2022.10. Grokking 是算法数据集的一种不寻常现象，在过度拟合训练数据后很久就会发生泛化，这种现象仍然难以捉摸。我们的目标是通过分析神经网络的损失情况来理解 grokking，将训练和测试损失之间的不匹配确定为 grokking 的原因。我们将此称为“LU 机制”，因为训练和测试损失（针对模型权重范数）通常分别类似于“L”和“U”。这种简单的机制可以很好地解释 grokking 的许多方面：数据大小依赖性、权重衰减依赖性、表示的出现等。在直观图片的指导下，我们能够在涉及图像、语言和分子的任务上诱导 grokking。在相反的方向，我们能够消除算法数据集的 grokking。我们将算法数据集的 grokking 的戏剧性归因于表征学习。
+38. [Grokking modular arithmetic](https://arxiv.org/abs/2301.02679)2023.1 我们提出了一个简单的神经网络，它可以学习模块化算术任务并表现出泛化的突然跳跃，称为“grokking”。具体来说，我们提出（i）完全连接的两层网络，在没有任何正则化的情况下，在普通梯度下降下使用 MSE 损失函数表现出对各种模块化算术任务的 grokking； (ii) 证据表明 grokking 模块化算法对应于学习其结构由任务确定的特定特征图； (iii) 权重的解析表达式——以及特征图——解决一大类模块化算术任务； (iv) 证明这些特征图也可以通过普通梯度下降法和 AdamW 找到，从而建立网络学习表示的完整可解释性。
+39. [Progress measures for grokking via mechanistic interpretability](https://arxiv.org/abs/2301.05217)2023.2神经网络可解释性方面研究。研究表明，grokking不是突然的转变，而是源于权重中编码的结构化机制的逐渐放大，随后是记忆组件的删除。
+40. [awesome-deep-phenomena ](https://github.com/MinghuiChen43/awesome-deep-phenomena) 2022.5， 神经网络表现出的各种现象的研究git整理。
+41. [Deep Learning for Mathematical Reasoning (DL4MATH)](https://github.com/lupantech/dl4math)DL和数学相关的资料git整理。
+42. [PCAST Working Group on Generative AI Invites Public Input](https://terrytao.wordpress.com/2023/05/13/pcast-working-group-on-generative-ai-invites-public-input/)2023.5.13. 陶哲轩将主持美国总统科技顾问委员会（PCAST）成立的一个生成式人工智能工作组的会议。
  ## DeepModeling
 1. [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmode
 ling).空了看情况解析某些工作.
@@ -183,6 +189,7 @@ ling).空了看情况解析某些工作.
 8. [Is deep learning a useful tool for the pure mathematician?](https://arxiv.org/abs/2304.12602)Geordie Williamson,2023.4。Claude内容总结：这篇文章主要探讨了深度学习对纯数学家的实用性。文章认为:1. 深度学习的许多成就都依赖于遵循简单规则的大规模统计建模,这与数学家寻找简洁而深刻的理论不同。因此,深度学习可能不会直接推动数学理论的发展。2. 但是,深度学习可以产生一些有趣的数学问题。例如,理解神经网络为什么在某些任务上表现优异,探索这些网络学习的表达形式和算法基础,这可能会产生一些有价值的数学理论。3. 深度学习也可以成为一种发现新的数学关系和结构的工具。研究人员已经探索了使用深度学习来理解复杂系统的拓扑和几何结构。这可以为数学家提供一些有趣的新思路和见解。4. 深度学习也被用来加速定理证明和公式推导等传统的数学工作。这可以使数学研究变得更加数据驱动和自动化。一些研究已经取得了早期成功,这是一个值得期待的新方向。5. 总体而言,尽管深度学习和数学理论有不同的动机与方法论,但两者之间存在潜在的协同性。深度学习可以成为数学发现和理解的有力工具,推动更广泛地跨学科合作。但它不太可能直接影响数学基础理论的发展。文章认为,深度学习可以成为数学家的一个有用工具,特别是在推动新发现、新见解和新方向上。但它可能无法直接推动更加基础的数学理论建设。两者有潜在的互补与协同作用,值得加强跨领域合作与理解。overall,深度学习有助于扩展和拓展当前的数学体系,但不会颠覆其基本建立的理论基础。
 9. [Learning proofs for the classification of nilpotent semigroups](https://arxiv.org/abs/2106.03015)Carlos Simpson,2021.6。Claude总结：这篇文章探索了使用神经网络进行nilpotent半群的分类定理证明,并在实验上取得了初步成功。但是完全自动化和令人理解的定理证明还需要更多工作。机器学习在这一过程中更可能起辅助作用,成为发现定理和理解代数结构的有力工具。这是一个涉及数学与人工智能交叉的有趣主题,值得进一步探讨与实践。
 10. [Lean for the Curious Mathematician 2023](https://lftcm2023.github.io/)2023年举办的“Lean for the Curious Mathematician”活动。讲座将从基础开始(如何安装和使用Lean,形式化数学的基本机制,浏览proof library mathlib等),然后构建更高级的主题,以说明形式化在不同数学领域的工作方式。具体的领域取决于参与者的兴趣(如实分析、复分析、微分几何、数论、拓扑学、组合数学、范畴论等)。
+11. [Fermat's Last Theorem for regular primes](https://arxiv.org/abs/2305.08955) Lean在费马大定理指数为正则素数(REGULAR PRIMES)情形的证明。[数学证明可参考](https://kconrad.math.uconn.edu/blurbs/gradnumthy/fltreg.pdf)(2023.5.15)。迈出了一步，但离完整版的证明，差距还是比较大的。 
 ## Discussion
 1. [怎样看待Ali Rahimi 获得 NIPS 2017 Test-of-time Award后的演讲？](https://www.zhihu.com/question/263711574)17年就有人(张心欣,王刚等)指出了DL的缺陷,和这个领域中人的特点,过去5年了,还是那样.不过如23 能看出,meta的做应用的田渊栋还在坚守理论.
 2. [深度学习领域有哪些瓶颈？](https://www.zhihu.com/question/40577663/answer/2593884415)张拳石新的吐槽,以及最新成果汇集.
