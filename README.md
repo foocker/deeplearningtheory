@@ -71,6 +71,7 @@
     + 6.3 [赵拓等三篇](https://www.zhihu.com/question/347654789/answer/1480974642)(2019)
     + 6.4 [Neural Networks with Small Weights and Depth-Separation Barriers](https://arxiv.org/abs/2006.00625) Gal Vardi等证明了对某些类型的神经网络, 用k层的多项式规模网络需要任意weight, 但用3k+3层的多项式规模网络只需要多项式大小的 weight(2020)。
     + 6.5 [Universality of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1805.10769.pdf)卷积网络的通用逼近能力，及其核心要素，Ding-Xuan Zhou(2018)，20年发表。
+    + 6.6 [Deep Learning and Approximation theory 2023](https://nadavdym.github.io/lecture_notes/DeepNotes.pdf ) 关于DL和逼近理论的notes，62页，比较清晰完善。 
 
 ## Optimization
 7. SGD
@@ -84,6 +85,7 @@
 9. [Adam](https://arxiv.org/abs/1412.6980)
     + 9.1 [deep-learning-dynamics-paper-list](https://github.com/zeke-xie/deep-learning-dynamics-paper-list)关于DL优化动力学方面研究的资料收集。
     + 9.2 [Adai](https://github.com/zeke-xie/adaptive-inertia-adai) Adam的优化版本Adai，Adam逃离鞍点很快，但是不能像SGD一样擅长找到flat minima。作者设计一类新的自适应优化器Adai结合SGD和Adam的优点。Adai逃离鞍点速度接近Adam,寻找flat minima能接近SGD。其知乎介绍可看[Adai-zhihu]((https://www.zhihu.com/question/323747423/answer/2576604040))
+10. [ Smooth momentum: improving lipschitzness in gradient descent ](https://link.springer.com/article/10.1007/s10489-022-04207-7) 提出了平滑动量，一种新的优化器，它改善了在”陡峭墙壁”上的行为。作者对所提出的优化器的特性进行了数学分析，并证明了平滑动量展现出改进的利普希茨特性和收敛性，这允许在梯度下降中稳定且更快的收敛。 (2023)
 
 
 ## Geometry
@@ -171,17 +173,22 @@ github.io/#category=Algebra&index=1).
 40. [awesome-deep-phenomena ](https://github.com/MinghuiChen43/awesome-deep-phenomena) 2022.5， 神经网络表现出的各种现象的研究git整理。
 41. [Deep Learning for Mathematical Reasoning (DL4MATH)](https://github.com/lupantech/dl4math)DL和数学相关的资料git整理。
 42. [PCAST Working Group on Generative AI Invites Public Input](https://terrytao.wordpress.com/2023/05/13/pcast-working-group-on-generative-ai-invites-public-input/)2023.5.13. 陶哲轩将主持美国总统科技顾问委员会（PCAST）成立的一个生成式人工智能工作组的会议。
+43. [CRATE](https://github.com/Ma-Lab-Berkeley/CRATE) 白盒ai 训练进展.知乎上有人讨论，该文章拼凑比较多，且论文和代码相差十万八千里。[知乎参考](https://www.zhihu.com/question/634009595)。(2023)
+44. [An Ambiguity Measure for Recognizing the Unknowns in Deep Learning](https://arxiv.org/pdf/2312.06077.pdf)自华为香港研究中心的学者，给出了模型对未知量(类)的模糊性度量框架。该模糊度量能够判断未知量和已知模型所能判断的范围的相关性大小。(2023)
  ## DeepModeling
 1. [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmode
 ling).空了看情况解析某些工作.
 2. [deepflame](https://github.com/deepmodeling/deepflame-dev)DL向的流体力学包。
+3. [FunSearch](https://mp.weixin.qq.com/s/PLN5easZX-0wY-lcjJRJ0Q)大语言模型和自动评估器的联合迭代，发现了帽集问题的新解决方案，在一些设定下发现了有史以来最大的帽集。DeepMind团队还决定将FunSearch应用于发现更有效的解决“装箱问题”（bin packing）的算法。(2023)
+4. [Applications  of Deep Learning to Scientific Computing](https://www.research-collection.ethz.ch/handle/20.500.11850/646749 )PINN, DeepONet等用来解物理相关的PDE方程的一篇来自ETH的博士论文。(2023)
+5. [An ML approach to resolution of singularities](https://arxiv.org/pdf/2307.00252.pdf)作者介绍了一种新的Hironaka游戏方法，它使用强化学习代理来寻找奇点的最优分辨率(Resolutions)。在某些领域，训练有素的模型在执行多项式加法的总次数方面优于现有的最先进的选择启发式方法，这证明了机器学习的最新发展有潜力提高符号计算中算法的性能。(2023)  
  
  ## 数学形式主义与计算机
 1. [The Future of Mathematics？ ](https://www.bilibili.com/video/av71583469)(2019) Kevin Buzzard就lean的一场讲座，评论区有对应讲义资料。
 2. [数学形式主义的兴起](https://mp.weixin.qq.com/s/-XosE3LzA8wfFv-38EIfKQ)(2022.7)Kevin Buzzard教授在2022本届国际数学家大会一小时报告演讲中提供了一些信息和思考见解。讲述了数学
 形式主义与人工智能、机器学习和开源社区的共同努力，用计算机做奥数题、检查数学证明过程是否有误、甚至自动发现和形式化证明数学定理，在理论和实践中又会碰撞出什么火花，又会如何囿于...
 3. [专访ICM 2022国际数学家大会一小时报告者Kevin Buzzard：计算机可以成为数学家吗？——译自量子杂志](https://mp.weixin.qq.com/s/VWuRyxkl0xgZWcqRn0WJAw)比较好的采访,值得看看.数学家让计算机科学家了解到数学很难,这个部分,在被逐渐理解,且计算机系统检查,可能会解决这个难点.还有那些炫酷的项目,球面外翻,费马大定理,非常值得关注.
-4. [Deep Maths-machine learning and mathematics](https://www.youtube.com/watch?v=wbJQTtjlM_w),重新发现Euler多面体公式 （对之前工作的细节的更进一步说明）,涉及组合不变量猜想，庞加莱猜想，瑟斯顿几何猜想，扭结图等（涉及的面很大，但都是一带而过）。
+4. [Deep Maths-machine learning and mathematics](https://www.youtube.com/watch?v=wbJQTtjlM_w),重新发现Euler多面体公式 （对之前工作的细节的更进一步说明）,涉及组合不变量猜想，庞加莱猜想，瑟斯顿几何猜想，扭结图等（涉及的面很大，但都是一带而过）。(2023)  
 <!-- ![image](./imgs/ex1_knot.png) -->
 5. [Would it be possible to create a tool to automatically diagram papers?](https://terrytao.wordpress.com/2023/02/18would-it-be-possible-to-create-a-tool-to-automatically-diagram-papers/) Tao在[IPAM](https://www.ipam.ucla.edu/programs/workshops/machine-assisted-proofs/)组织用机器学习来帮助证明的workshops。
 6. [数学的形式化与AI for Mathematics北大](https://mp.weixin.qq.com/s/_8h-qJ4GYf52HQrL0hl60g)没找到具体内容，可以忽略(具体内容已由原作者分享了，可私聊)，2023.3。
@@ -189,7 +196,9 @@ ling).空了看情况解析某些工作.
 8. [Is deep learning a useful tool for the pure mathematician?](https://arxiv.org/abs/2304.12602)Geordie Williamson,2023.4。Claude内容总结：这篇文章主要探讨了深度学习对纯数学家的实用性。文章认为:1. 深度学习的许多成就都依赖于遵循简单规则的大规模统计建模,这与数学家寻找简洁而深刻的理论不同。因此,深度学习可能不会直接推动数学理论的发展。2. 但是,深度学习可以产生一些有趣的数学问题。例如,理解神经网络为什么在某些任务上表现优异,探索这些网络学习的表达形式和算法基础,这可能会产生一些有价值的数学理论。3. 深度学习也可以成为一种发现新的数学关系和结构的工具。研究人员已经探索了使用深度学习来理解复杂系统的拓扑和几何结构。这可以为数学家提供一些有趣的新思路和见解。4. 深度学习也被用来加速定理证明和公式推导等传统的数学工作。这可以使数学研究变得更加数据驱动和自动化。一些研究已经取得了早期成功,这是一个值得期待的新方向。5. 总体而言,尽管深度学习和数学理论有不同的动机与方法论,但两者之间存在潜在的协同性。深度学习可以成为数学发现和理解的有力工具,推动更广泛地跨学科合作。但它不太可能直接影响数学基础理论的发展。文章认为,深度学习可以成为数学家的一个有用工具,特别是在推动新发现、新见解和新方向上。但它可能无法直接推动更加基础的数学理论建设。两者有潜在的互补与协同作用,值得加强跨领域合作与理解。overall,深度学习有助于扩展和拓展当前的数学体系,但不会颠覆其基本建立的理论基础。
 9. [Learning proofs for the classification of nilpotent semigroups](https://arxiv.org/abs/2106.03015)Carlos Simpson,2021.6。Claude总结：这篇文章探索了使用神经网络进行nilpotent半群的分类定理证明,并在实验上取得了初步成功。但是完全自动化和令人理解的定理证明还需要更多工作。机器学习在这一过程中更可能起辅助作用,成为发现定理和理解代数结构的有力工具。这是一个涉及数学与人工智能交叉的有趣主题,值得进一步探讨与实践。
 10. [Lean for the Curious Mathematician 2023](https://lftcm2023.github.io/)2023年举办的“Lean for the Curious Mathematician”活动。讲座将从基础开始(如何安装和使用Lean,形式化数学的基本机制,浏览proof library mathlib等),然后构建更高级的主题,以说明形式化在不同数学领域的工作方式。具体的领域取决于参与者的兴趣(如实分析、复分析、微分几何、数论、拓扑学、组合数学、范畴论等)。
-11. [Fermat's Last Theorem for regular primes](https://arxiv.org/abs/2305.08955) Lean在费马大定理指数为正则素数(REGULAR PRIMES)情形的证明。[数学证明可参考](https://kconrad.math.uconn.edu/blurbs/gradnumthy/fltreg.pdf)(2023.5.15)。迈出了一步，但离完整版的证明，差距还是比较大的。 
+11. [Fermat's Last Theorem for regular primes](https://arxiv.org/abs/2305.08955) Lean在费马大定理指数为正则素数(REGULAR PRIMES)情形的证明。[数学证明可参考](https://kconrad.math.uconn.edu/blurbs/gradnumthy/fltreg.pdf)(2023.5.15)。迈出了一步，但离完整版的证明，差距还是比较大的。
+12. [LeanDojo: Theorem Proving with Retrieval-Augmented Language Models ](https://arxiv.org/abs/2306.15626)(2023)将大语言模型和形式化证明结合起来，官方相关部署[LeanCopilot](https://github.com/lean-dojo/LeanCopilot )都在做。
+13. [pfr](https://github.com/teorth/pfr) 一个由四位著名数学家组成的团队，包括两位菲尔兹奖得主，证明了一个被描述为“加法组合学圣杯”（holy grail of additive combinatorics）的猜想。在一个月内他们松散地合作，用计算机辅助证明验证了它。辅助证明：蓝图可以创建一个图表 [dep graph document](https://teorth.github.io/pfr/blueprint/dep_graph_document.html) 描述证明中涉及的各种逻辑步骤，Lean来形式化证明验证。 相关报告[参考1](https://mp.weixin.qq.com/s/l3Zm2HXOrxiSkaSk0dbNDg),[参考2](https://terrytao.wordpress.com/2023/12/05/a-slightly-longer-lean-4-proof-tour/)
 ## Discussion
 1. [怎样看待Ali Rahimi 获得 NIPS 2017 Test-of-time Award后的演讲？](https://www.zhihu.com/question/263711574)17年就有人(张心欣,王刚等)指出了DL的缺陷,和这个领域中人的特点,过去5年了,还是那样.不过如23 能看出,meta的做应用的田渊栋还在坚守理论.
 2. [深度学习领域有哪些瓶颈？](https://www.zhihu.com/question/40577663/answer/2593884415)张拳石新的吐槽,以及最新成果汇集.
