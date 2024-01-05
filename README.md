@@ -103,7 +103,7 @@
 22. [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478)(Michael M. Bronstein, Joan Bruna, Taco Cohen, Petar Veličković,2021),见上面课程5:深度学习几何课程.
 23. [dynamical systems and ml 2, 2020](https://www.stat.berkeley.edu/~mmahoney/talks/dynamical_systems_and_ml_2.pdf)看起来写得很好，有Connection between ResNets and Dynamical Systems。
 24. [Dynamical Systems and Machine Learning 2020, pku](https://www.math.pku.edu.cn/amel/docs/20200719122925684287.pdf)。
-25. [Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory](https://arxiv.org/abs/2310.20360) 这本书把深度学习的理论和实践结合的比较紧密，并且配有代码。主要包含了ANN相关的的基础组件分析、逼近、优化、KL散度、生成的概率误差分析、DL在PDE的应用(PINN,DKM)。另外比较好的是。LaTeX工作室给出了对应的tex源码。[《深度学习的数学介绍》LaTeX 代码下载](https://mp.weixin.qq.com/s/zg621Rdywi_EYxC1TzGFvA)2023.
+25. [Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory](https://arxiv.org/abs/2310.20360) 这本书把深度学习的理论和实践结合的比较紧密，并且配有代码。主要包含了ANN相关的的基础组件分析、逼近、优化、KL散度、生成的概率误差分析、DL在PDE的应用(PINN,DKM)。另外比较好的是。LaTeX工作室给出了对应的tex源码。[《深度学习的数学介绍》LaTeX 代码下载](https://mp.weixin.qq.com/s/zg621Rdywi_EYxC1TzGFvA)2023。
 
 ## Session
 21. [Foundations of Deep Learning](https://simons.berkeley.edu/programs/dl2019)(2019)，西蒙研究中心会议。
