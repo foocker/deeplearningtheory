@@ -176,6 +176,7 @@ github.io/#category=Algebra&index=1).
 42. [PCAST Working Group on Generative AI Invites Public Input](https://terrytao.wordpress.com/2023/05/13/pcast-working-group-on-generative-ai-invites-public-input/)2023.5.13. 陶哲轩将主持美国总统科技顾问委员会（PCAST）成立的一个生成式人工智能工作组的会议。
 43. 🔥[CRATE](https://github.com/Ma-Lab-Berkeley/CRATE) 白盒ai 训练进展.知乎上有人讨论，<font color="red"> 该文章拼凑比较多，且论文和代码相差十万八千里。 </font> [知乎参考](https://www.zhihu.com/question/634009595)。(2023)
 44. [An Ambiguity Measure for Recognizing the Unknowns in Deep Learning](https://arxiv.org/pdf/2312.06077.pdf)自华为香港研究中心的学者，给出了模型对未知量(类)的模糊性度量框架。该模糊度量能够判断未知量和已知模型所能判断的范围的相关性大小。(2023)
+45. [KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756)(2024.4)利用Kolmogorov-Arnold表示定理，设计的可学习激活函数的神经网络，并且激活函数能被B样条具体表示，在连续函数，一些物理问题等精度较高，可解释强，后期发展空间比较大。相关书籍可参考S. Ya. Khavinson - Best Approximation by Linear Superpositions (Approximate Nomography)-American Mathematical Society。
  ## DeepModeling
 1. [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmode
 ling).空了看情况解析某些工作.
@@ -211,6 +212,7 @@ ling).空了看情况解析某些工作.
 1. [Deep Learning Symmetries and Their Lie Groups, Algebras, and Subalgebras from First Principles ](https://arxiv.org/pdf/2301.05638.pdf) (2023)论文提出了一种深度学习算法，旨在发现和识别标记数据集中存在的连续对称性群。作者使用全连接神经网络来模拟对称性变换和相应的生成器。他们构建了损失函数，以确保应用的变换是对称的，并且生成器的集合形成了一个封闭的（子）代数。该研究通过多个示例进行了验证，这些示例展示了由对称性保留的不同类型守恒量。作者分析了旋转群SO(2)、SO(3)和SO(4)以及洛伦兹群SO(1, 3)的完整子群结构。其他示例包括压缩映射、分段不连续标签和SO(10)，展示了该方法的普遍性及其在物理和数据科学中的潜在应用。论文还讨论了将机器学习应用于李群及其属性的数学研究，为数学领域的机器学习方法打开了大门。作者提供了详细的研究方法，包括他们在分析中使用的设置和符号、深度学习方法以及线性代数方法，以帮助不熟悉深度学习的读者。论文分为多个章节，涵盖了引言、设置和符号、深度学习方法、线性代数方法以及不同维度下的长度保持变换、洛伦兹变换和不连续预言的例子。作者以讨论其方法在理解数据对称性和其对基于模拟的推断及参数检索的潜在应用的含义结束。(from kimi chat).
 2. [小乐数学科普：事关BSD猜想，AI人工智能发现椭圆曲线的“椋鸟群飞murmuration”现象——译自量子杂志 ](https://mp.weixin.qq.com/s/Tq4KFqkscqKF0ArGf1gV5g )(2020-2023), [Machine-Learning Arithmetic Curves](https://arxiv.org/pdf/2012.04084.pdf)(2020) 能够高精度地预测椭圆曲线的秩;[Machine-Learning Number Fields](https://arxiv.org/pdf/2011.08958.pdf) (2020) 利用机器学习对数论中的其他对象进行分类;[Murmurations of elliptic curves](https://arxiv.org/abs/2204.10140)  Murmurations of Elliptic Curves(2022);[Murmurations](https://arxiv.org/pdf/2310.07681.pdf) (2023)Zubrilina证明了这种类型的椋鸟群飞遵循她发现的明确公式。[视频交流](https://icerm.brown.edu/events/htw-23-ma/)。
 3. [Deep-Learning the Landscape ](https://arxiv.org/pdf/1706.02714.pdf) (2023, Yang-Hui He)这篇论文的摘要提出了一种范式，用于深度学习在数学物理和粒子现象学中出现的不断扩大的数据库，这些数据库的多样性涵盖了弦真空的统计、组合和代数几何等领域。作为具体的例子，作者建立了多层神经网络，既可以作为分类器也可以作为预测器，并用从卡拉比-丘流形和向量丛到规范理论的箭袋表示法等多种可用数据对它们进行训练。研究发现，即使是相对简单的神经网络也能在几分钟内学习到许多重要数量，并以惊人的准确性进行预测，同时还能预测以前未遇到的结果。这种范式应该成为物理学景观以及纯数学中各种调查的有价值的工具。(kimi chat)
+4. [two-announcements-ai-for-math-resources-and-erdosproblems-com](https://terrytao.wordpress.com/2024/04/19/two-announcements-ai-for-math-resources-and-erdosproblems-com/)(2024.4)陶哲轩等列的AI for math 资料，以及爱多士问题网站。
 
 ## 数学家
 懒得分类了，随便新加了一类
