@@ -62,6 +62,7 @@
 6. [Advanced Topics in Machine Learning and Game Theory](https://feifang.info/advanced-topics-in-machine-learning-and-game-theory-fall-2022/)游戏，强化方面的课程，2022。
 ## Architecture
 5. [Partial Differential Equations is All You Need for Generating Neural Architectures -- A Theory for Physical Artificial Intelligence Systems](https://arxiv.org/abs/2103.08313) 将统计物理的反应扩散方程，量子力学中的薛定谔方程，傍轴光学中的亥姆霍兹方程统一整合到神经网络偏微分方程中(NPDE)，利用有限元方法找到数值解，从离散过程中，构造了多层感知，卷积网络，和循环网络，并提供了优化方法L-BFGS等，主要是建立了经典物理模型和经典神经网络的联系(2021)。
+6. 🔥[KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756)(2024.4)利用Kolmogorov-Arnold表示定理，设计的可学习激活函数的神经网络，并且激活函数能被B样条具体表示，在连续函数，一些物理问题等精度较高，可解释强，后期发展空间比较大。相关书籍可参考S. Ya. Khavinson - Best Approximation by Linear Superpositions (Approximate Nomography)-American Mathematical Society。
 
 ## Approximation
 6. NN Approximation Theory
@@ -176,7 +177,6 @@ github.io/#category=Algebra&index=1).
 42. [PCAST Working Group on Generative AI Invites Public Input](https://terrytao.wordpress.com/2023/05/13/pcast-working-group-on-generative-ai-invites-public-input/)2023.5.13. 陶哲轩将主持美国总统科技顾问委员会（PCAST）成立的一个生成式人工智能工作组的会议。
 43. 🔥[CRATE](https://github.com/Ma-Lab-Berkeley/CRATE) 白盒ai 训练进展.知乎上有人讨论，<font color="red"> 该文章拼凑比较多，且论文和代码相差十万八千里。 </font> [知乎参考](https://www.zhihu.com/question/634009595)。(2023)
 44. [An Ambiguity Measure for Recognizing the Unknowns in Deep Learning](https://arxiv.org/pdf/2312.06077.pdf)自华为香港研究中心的学者，给出了模型对未知量(类)的模糊性度量框架。该模糊度量能够判断未知量和已知模型所能判断的范围的相关性大小。(2023)
-45. 🔥[KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756)(2024.4)利用Kolmogorov-Arnold表示定理，设计的可学习激活函数的神经网络，并且激活函数能被B样条具体表示，在连续函数，一些物理问题等精度较高，可解释强，后期发展空间比较大。相关书籍可参考S. Ya. Khavinson - Best Approximation by Linear Superpositions (Approximate Nomography)-American Mathematical Society。
  ## DeepModeling
 1. [DeepModeling](https://deepmodeling.com/)鄂维南等组织,一种新的研究范式,将DL建模渗透到科研中,这里会开源很多对新或旧问题的DL建模方案.[其github地址](https://github.com/deepmode
 ling).空了看情况解析某些工作.
