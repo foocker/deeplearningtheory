@@ -90,6 +90,7 @@
     + 9.1 [deep-learning-dynamics-paper-list](https://github.com/zeke-xie/deep-learning-dynamics-paper-list)关于DL优化动力学方面研究的资料收集。
     + 9.2 [Adai](https://github.com/zeke-xie/adaptive-inertia-adai) Adam的优化版本Adai，Adam逃离鞍点很快，但是不能像SGD一样擅长找到flat minima。作者设计一类新的自适应优化器Adai结合SGD和Adam的优点。Adai逃离鞍点速度接近Adam,寻找flat minima能接近SGD。其知乎介绍可看[Adai-zhihu]((https://www.zhihu.com/question/323747423/answer/2576604040))
 10. [ Smooth momentum: improving lipschitzness in gradient descent ](https://link.springer.com/article/10.1007/s10489-022-04207-7) 提出了平滑动量，一种新的优化器，它改善了在”陡峭墙壁”上的行为。作者对所提出的优化器的特性进行了数学分析，并证明了平滑动量展现出改进的利普希茨特性和收敛性，这允许在梯度下降中稳定且更快的收敛。 (2023)
+11. [Muon](https://github.com/KellerJordan/Muon)(2024).[作者解读](https://kellerjordan.github.io/posts/muon/).中文解析可参考[Muon优化器赏析：从向量到矩阵的本质跨越](https://zhuanlan.zhihu.com/p/13401683661)
 
 
 ## Geometry
