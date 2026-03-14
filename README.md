@@ -1,7 +1,7 @@
 # Deep Learning Theory
 整理了一些深度学习的理论相关内容，持续更新。
 
-> 2026-03 更新：先补一版 `2025–2026 Highlights`，集中记录最近在 `Lean` 形式化、`AI for Math`、machine-assisted proof 方向上的一些代表性进展；后续可继续增补 `Ken Ono`、`Erdos`、`Knuth`、椋鸟问题等材料。
+> 2026-03 更新：先补一版 `2025–2026 Highlights`，集中记录最近在 `Lean` 形式化、`AI for Math`、machine-assisted proof 方向上的一些代表性进展。
 
 ## Contents
 - `2025–2026 Highlights`：最近一年左右最值得优先看的少量代表性进展。
