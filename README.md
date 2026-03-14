@@ -1,5 +1,55 @@
 # Deep Learning Theory
 整理了一些深度学习的理论相关内容，持续更新。
+
+> 2026-03 更新：先补一版 `2025–2026 Highlights`，集中记录最近在 `Lean` 形式化、`AI for Math`、machine-assisted proof 方向上的一些代表性进展；后续可继续增补 `Ken Ono`、`Erdos`、`Knuth`、椋鸟问题等材料。
+
+## Contents
+- `2025–2026 Highlights`：最近一年左右最值得优先看的少量代表性进展。
+- `Overview`：深度学习理论与智能理论综述。
+- `Course`：课程、讲义与系统性学习资源。
+- `Architecture / Approximation / Optimization / Geometry`：若干专题条目。
+- `AI4Math / 数学家 / 近似`：数学与 AI 交叉方向的历史条目与延伸阅读。
+
+## 2025–2026 Highlights
+
+### Lean / Formalization
+- 🔥 [Sphere Packing in Lean](https://github.com/math-inc/Sphere-Packing-Lean) / [official post](https://math.inc/sphere-packing)：Maryna Viazovska 2022 Fields Medal 相关的 `8` 维与 `24` 维球堆积结果在 Lean 中得到完整形式化。Math, Inc. 官方页给出的说法是：Gauss 在约 `5` 天内补完 `8` 维剩余部分，约 `2` 周完成 `24` 维与周期唯一性。这是近年最有代表性的 autoformalization 事件之一。
+
+- [The Riemann Hypothesis for curves, autoformalized](https://github.com/math-inc/RiemannHypothesisCurves)：有限域上超椭圆曲线的 Riemann-Hypothesis 型估计被形式化，README 给出规模约 `4000` 行 Lean。这个项目很适合作为 AI-assisted formal verification 进入数论 / 代数几何边界的代表案例。
+
+- [Archon: An Agentic System for Formalizing Research-Level Mathematics](https://frenzymath.com/blog/archon-firstproof/)：这篇文章强调的重点不是传统 benchmark，而是 repository-level 的研究级形式化：Plan Agent 与 Lean Agent 协同，把复杂证明拆分成模块、循环规划并逐步填补 `sorry`。文中报告 Archon 全自动 formalize 了 `FirstProof Problem 6`，并在几乎自动的条件下完成了 `Problem 4`。
+
+- [The Equational Theories Project: Advancing Collaborative Mathematical Research at Scale](https://arxiv.org/abs/2512.07087)：一个非常值得单列的案例：人类协作、自动证明与 Lean 验证深度结合，Terence Tao 参与其中。摘要写得很直接：项目确定了 `4694` 个最简单 magma 等式律之间全部 `22,028,942` 条蕴含边，是 machine-assisted collaborative mathematics 的里程碑事件。
+
+![Archon workflow](imgs/archon_workflow.svg)
+
+![Riemann Hypothesis for curves blueprint](imgs/rh_curves_blueprint_dep_graph.png)
+
+### AI for Math / Discovery
+- [Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245) (Tony Feng, 2026)：这篇文章明确记录了一个基于 `Gemini Deep Think` 的定制 AI agent。它借助代数组合与对称群表示论，把 arithmetic Hirzebruch proportionality 里出现的 `eigenweights` 计算推广到所有 classical groups，是 AI 深入代数几何 / 表示论工作流的一个漂亮案例。
+
+- [The motivic class of the space of genus 0 maps to the flag variety](https://arxiv.org/abs/2601.07222)：摘要中直接说明：论文中的结果是在 `Google Gemini` 及相关工具协助下得到的；同时正文仍然保持人类作者主导的写法。这类工作很值得关注，因为它不是 formalization，而是 AI 直接参与研究发现与证明构思。
+
+### A Case Study: Murmurations
+
+[Murmurations of elliptic curves](https://arxiv.org/abs/2204.10140) 不是最近一年的论文，但我倾向于把它保留成一个单独案例：它很可能是很多人第一次真正感受到“AI / 数据分析已经开始进入数论研究工作流”的代表作之一。论文研究的是不同 rank 椭圆曲线族的 Frobenius trace，也就是各个素数上的 `a_p` 系数。
+
+- **数据表示**：作者把每条椭圆曲线表示成由一串 `a_p` 构成的高维向量，再把这些向量当作 point cloud 来处理。
+- **使用方法**：方法并不花哨，主要是 `logistic regression`、`PCA` 等基础机器学习工具，但已经足以暴露出稳定而醒目的模式。
+- **关键现象**：一方面，不同 rank 的曲线在 PCA 平面上出现了相当清晰的簇分离；另一方面，对固定 rank 的曲线族取 `a_p` 平均后，会出现非常显著的振荡图样，且不同 rank 之间像鸟群转向一样彼此呼应，因此被称作 `murmurations`。
+- **为什么重要**：它展示的不是 magical theorem proving，而是一种新的数论实验方法——先把对象编码成可分析的数据，再用简单统计学习方法寻找人眼不容易直接看出的结构。
+- **更深一层的意义**：这篇文章的重要性不只在于“用机器学习分了类”，而在于它提示人们：即使方法并不复杂，数据驱动的观察也可能先暴露出此前并未被理论充分解释的结构，再反过来刺激新的数论问题。
+- **后续线索**：相关延伸工作已经出现，例如 [Murmurations of Mestre-Nagao sums](https://arxiv.org/abs/2403.17626)，说明这种“先观察 pattern，再追问其数论机制”的路线并不是一次性的尝试。
+
+![Murmurations of elliptic curves: average a_p by rank](imgs/murmuration_ap_by_rank.png)
+
+![Murmurations of elliptic curves: PCA clustering](imgs/murmuration_pca2d.png)
+
+### Open Repositories / Communities
+- [Optimization Constants in Mathematics](https://github.com/teorth/optimizationproblems)：这是一个很有意思的问题基础设施项目：整理各类数学优化常数的最好上下界、来源、验证状态与可更新条目。它并不是 theorem proving 仓库，但非常适合观察 AI、计算与协作如何改变数学研究的组织方式。相关博文可见 Terence Tao: [A crowdsourced repository for optimization constants?](https://terrytao.wordpress.com/2026/01/22/a-crowdsourced-repository-for-optimization-constants/)
+
+- [math-inc](https://github.com/math-inc)：这一组织近来连续公开了 `Sphere-Packing-Lean`、`RiemannHypothesisCurves`、`KakeyaFiniteFields`、`ZkLinalg` 等项目。无论是否完全接受其叙事，这些仓库都值得持续跟踪，因为它们代表了前沿 autoformalization 的最新公开样本。
+
 ## Overview
 1. [Recent advances in deep learning theory](https://arxiv.org/pdf/2012.10931.pdf)
 总结了目前深度学习理论研究的六个方向的一些结果，概述型，没做深入探讨(2021)。
